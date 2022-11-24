@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap");
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Verydarkblue-main-BG: hsl(217, 54%, 11%);
+  --Verydarkblue-cardBG: hsl(216, 50%, 16%);
+  --Verydarkblue-line: hsl(215, 32%, 27%);
+  --Cyan: hsl(178, 100%, 50%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--Soft-blue);
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--White);
+}
+h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--Cyan);
+}
+
+body{
+    background-color: var(--Verydarkblue-main-BG);
+    padding: 200px;
+}
+
+/* card starts */
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px 80px;
+    
+}
+.card-wrap{
+    background-color: var(--Verydarkblue-cardBG);
+    width: 300px;
+    height: 550px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.con{
+    margin-top: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    width: 300px;
+    border-radius: 10px;
+
+}
+.con2 p{
+  line-height: 30px;
+
+}
+.eth{
+    height: 20px;
+}
+.eth img{
+    height: 20px;
+}
+.clock{
+    height: 18px;
+}
+.clock img{
+    width: 18px;
+}
+.right-con p{
+    font-size: 16px;
+
+}
+.con3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-con,.right-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.con4{
+    display: flex;
+    align-items: center;
+    border-top: 0.5px solid var(--Verydarkblue-line);
+    padding: 20px 0;
+    gap: 15px;
+}
+
+.profile{
+    height: 35px;
+}
+.profile img{
+    width: 35px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+.creator p{
+    font-size: 15px;
+}
+.creator span{
+    color: var(--White);
+}
+
+
+/* card ends */
